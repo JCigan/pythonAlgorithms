@@ -23,7 +23,7 @@ class Solution:
         except ValueError:
             raise Exception('Input value must be a number')
         if num > 1000000 or num < 0:
-            raise Exception('Please enter a non-negative integer less than 1,000,000')
+            raise Exception('Please enter a non-negative integer no greater than 1,000,000')
         if num == 1000000:
             return "one million"
         if num == 0:
